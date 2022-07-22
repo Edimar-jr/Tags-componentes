@@ -1,0 +1,298 @@
+CURSO FULLSTACK UDEMY
+
+* Criando um projeto no Sublime Tex
+
+ *tags
+
+- <b></b> 
+No caso bem então quer dizer Bot que do inglês significa Negrito.
+
+-<!doctype> 
+
+é uma tag que define qual é o tipo do HTML que você está utilizando dock de documento
+type de tipo
+
+-<meta charset="utf-8">
+
+definir acento na pagina web
+
+- <br>
+break ( quebrar )
+
+<h1></h1>
+
+tag de cabeçalho aumenta o tamanho do texo ( nao precisa usar <br> quando se usar <h1>)
+
+- <p></p>
+
+para formar um paragrafo
+
+- <hr>
+
+linha orisontal 
+
+- <strong></strong>
+
+deixa o texto em negrito (recomendado)
+
+- <i></i>
+deixa o texto italico ( nao recomendado)
+
+- <em></em>
+deixa o texto italico ( recomendado )
+
+<u></u>
+underline
+
+<strike></strike>
+
+o texto tem um risco no meio de errado
+
+<ul></ul>
+
+lista nao ordenada 
+
+<li></li>
+
+lista
+
+<ul type="circle"> </ul>
+
+aparecera um circulo antes do texto
+
+<ul type="square"> </ul>
+aparecera um quadrado antes do texto
+
+<ul type="disc"> </ul>
+aparecera um disco preenchido antes do texto
+
+<!-- teste -->
+para fazer comentarios (nao aparece no site)
+
+<ol></ol> 
+ lista ordenada 
+
+<ol type="i">   </ol>
+
+<!-- Lista ordenada: 1, A, a, I, i  -->
+
+* 1 : ex:1, 2, 3, 4....
+* A : ex: A, B, C, D...
+* a : ex: a, b, c, d....
+* I : ex: I, II, III, V...
+* i : ex: i, ii, iii...
+
+
+
+* imagens
+<img src="imagens/img-5.jpg">
+(tem que ser igual a imagen da pasta)
+
+<img src="arquivo/imagens/img-5.jpg">
+(caso coloque outra pasta no aruivo )
+
+<img src="imagens/img-5.jpg" width="200">
+
+- muda a largura da imagen
+
+*<img src="imagens/img-5.jpg" height="100">
+
+- muda a altura da imagem
+
+* links
+
+- <a href=""></a>
+-(significa ancora ) para criar links.
+
+     ex:    <a href="contato.html">
+
+   	    Clique aqui
+
+   	    </a>
+
+
+-       <a href="">
+
+   	    Home
+   	</a>
+   	/
+   	<a href="contato.html">
+
+   	    contato
+
+   	</a>
+
+(abrindo dois links na mesma pagina obs : fazer a mesma coisa na outra pagina criada)
+
+ ex:       <a href="index.html">
+
+   	    Home
+   	   </a>
+
+   	   /
+
+   	   <a href="">    
+
+   	    contato
+
+           </a>
+
+
+ * tabelas
+
+ - <table></table> 
+( criar uma tabela obs: obrigatorio criar estrutura )
+
+ -  <table border=""></table> 
+ ( modificar a borda da tabela )
+
+  - para criar a tabela precisa da tag <tr> que siginifica linha.
+
+ - ex: <table border="">
+         
+     <tr>
+          
+
+     </tr>
+
+       </table>
+
+  * para criar a tabela precisa da tag <td> significa dados da tabela 
+
+
+  -  ex : <table border="">
+         
+     <tr>
+          <td>
+
+          </td>
+
+     </tr>
+
+       </table>
+  
+
+   * tabela criada.
+
+   * para criar uma tabela com o cabeçalho em negrito usar a tag <th>
+
+
+   -- ex:  <table border="">
+
+          <th>
+
+             <td>
+
+             </td>
+
+         </th>
+
+         </table>
+
+
+  * mais tabela 
+
+
+ -- pode ser colocado dentro da tabelo imagens e mudar a largura 
+
+-- ex :         <tr>
+   			<td>001</td>
+   			<td><img src="imagens/img-5.jpg"  width="200"></td>
+   			<td>R$ 2.500</td>
+   		</tr>
+
+  * pode ser colocado tambem links dentro da tabela 
+
+
+ ---            <tr>
+   			<td>001</td>
+   			<td><a href="">clique</a></td>
+   			<td>R$ 2.500</td>
+   		</tr>
+
+
+  *   para fazer uma extençao da colonua temos que usar a tag COLSPAN=""
+
+
+ -- ex :        <tr>
+   			<td>Desconto</td>
+   			<td colspan="">cupom1 - R$ 10</td>
+   		</tr>
+
+
+  *  posso mudar a extençao da linha com a tag ROWSPAN
+
+ -- EX :        <tr>
+   			<td rowspan="2">Desconto</td>
+   			<td colspan="2">cupom1 - R$ 10</td>
+   		</tr> 
+
+
+  *  FORMULARIOS
+
+
+ --- para criar um formulario começamos com a tag <form></form>
+
+ --- <input type="" nome""> tag componente para formulario
+
+    escrevendo text entre as aspas do type aparece uma caixa de texto a abaixo
+
+  --- ex :  <input type="text" nome"">
+
+
+ ---  para senha e recomendado usar o componente type="password"
+
+  -- ex : <input type="password" nome""> -> assim a senha na fica visivel 
+
+ --- para criar um button basta usar o componente button entre as aspas do type
+
+ -- ex : <input type="button" nome"">
+
+-- para colocar o atributo no button basta colocar a tag VALUE=""
+
+ EX: <input type="button" value="logar">
+
+
+ --- componente (RADIO)- aparece um circulo para marcar algo. 
+
+  -- ex : <input type="radio" name=""> masculino <br>
+
+ --  OBS: colocar sempre o mesmo name ex: <input type="radio" name="sexo"> masculino <br>
+
+ --- para saber o que o usuatio escolher tem que colocar a tag (value="")
+
+---  ex: <input type="radio" name="sexo" value="m"> masculino <br>  -> M para masculino
+--- <input type="radio" name="sexo" value="F"> masculino <br> F para feminino
+
+
+ * checkbox -> para aparecer um cadadro para marcaçao 
+
+ ex: <input type="checkbox" name="interesses">
+
+
+ <select></select>:  -> indicado quando tem uma lista muito grande
+
+
+<option></option> : -> cria uma lista com muitas opçoes 
+
+ex: <option>MT</option> : pode-se colocar as siglas de todos os estado assim o usuario pode marcar de qual estado ele é.
+
+ ex: <option>MT</option>
+     <option>RJ</option>
+     <option>SP</option>
+
+
+ * <textarea></textarea> -> para definir uma caixa de texto maior.
+
+
+
+ * CARACTERES ESPECIAIS 
+
+ --- https://www.w3schools.com/html/html_entities.asp -> entrar no site copiar e colar 
+
+
+ex : &lt;p&gt; ->  <p>
+
+
+
+* tag ALIGN : -> serve para centralizar

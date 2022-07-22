@@ -1,0 +1,22 @@
+**** o basico de CSS3 ***
+
+-- existem 3 maneiras de usar o stilo do css3
+
+--- external style sheet
+--- internal style sheet
+--- inline style
+
+
+
+ ** ESTILO INLINE.
+
+** color:
+
+ -- ex :  ->                      <p style=" color: red; ">
+			Ola mundo
+		   </p>
+
+
+  *** SELETORES CSS3
+
+-- classes e IDS
